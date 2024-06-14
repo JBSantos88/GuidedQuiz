@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://crexjus24bvyd"]
+
+[ext_resource type="Texture2D" uid="uid://4pwtfwtborfk" path="res://imagens/fechados/INTERFACE MENU/botaoContinuar.png" id="1_a4msx"]
+[ext_resource type="Texture2D" uid="uid://dt3gjwrdwwtvh" path="res://imagens/fechados/INTERFACE MENU/botaoDificuldade.png" id="2_omrv0"]
+[ext_resource type="Texture2D" uid="uid://bi4k5eqmnx8a0" path="res://imagens/fechados/INTERFACE MENU/botaoDisciplinas.png" id="3_s8ekj"]
+[ext_resource type="Texture2D" uid="uid://c8ppyyvddm4g4" path="res://imagens/fechados/INTERFACE MENU/botaoVoltar.png" id="4_b8e5e"]
+[ext_resource type="Texture2D" uid="uid://1lui05m00wj5" path="res://imagens/fechados/INTERFACE TITULO nova/background.jpg" id="5_j4w2b"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(384, 216)
+texture = ExtResource("5_j4w2b")
+
+[node name="BotaoContinuar" type="Sprite2D" parent="."]
+position = Vector2(609.75, 110)
+scale = Vector2(0.518852, 0.509259)
+texture = ExtResource("1_a4msx")
+
+[node name="BotaoDificuldade" type="Sprite2D" parent="."]
+position = Vector2(152.305, 320.75)
+scale = Vector2(0.4953, 0.515046)
+texture = ExtResource("2_omrv0")
+
+[node name="BotaoDisciplinas" type="Sprite2D" parent="."]
+position = Vector2(608.25, 320)
+scale = Vector2(0.52541, 0.518519)
+texture = ExtResource("3_s8ekj")
+
+[node name="BotaoVoltar" type="Sprite2D" parent="."]
+position = Vector2(152, 104)
+scale = Vector2(0.499771, 0.481481)
+texture = ExtResource("4_b8e5e")
